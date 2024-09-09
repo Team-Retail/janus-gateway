@@ -93,3 +93,5 @@ RUN cd /tmp \
 ENV PATH "$PATH:/opt/janus-tools/bin"
 RUN rm -rf libogg-1.3.5.zip libogg-1.3.5 rabbitmq-c paho.mqtt.c libwebsockets\
 usrsctp libsrtp-2.2.0 sofia-sip libnice doxygen-Release_1_8_11
+
+EXPOSE 80
